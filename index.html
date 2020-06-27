@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+   
+    <div class="main">
+        <div> 
+            <input dir="rtl" id="zero" class="input" type="text">
+        </div>
+        <div>
+            <button  class="abc1 btn btn-dark" onclick="clearResult()" >C</button>
+            <button  class="abc2 btn btn-dark" onclick="del()"><img class="icon" src="icons8-left-30.png" alt=""></button>
+            <button  class="abc3 btn btn-dark" onclick="getnuMber('/')">&#x00F7</button>
+        
+
+        </div>
+        <div>
+            <button class="def btn btn-dark" onclick="getnuMber('7')">7</button>
+            <button class="def btn btn-dark" onclick="getnuMber('8')">8</button>
+            <button class="def btn btn-dark" onclick="getnuMber('9')">9</button>
+            <button class="def btn btn-dark" onclick="getnuMber('*')">x</button>
+        </div>
+        <div>
+            <button class="def btn btn-dark" onclick="getnuMber('4')">4</button>
+            <button class="def btn btn-dark" onclick="getnuMber('5')">5</button>
+            <button class="def btn btn-dark" onclick="getnuMber('6')">6</button>
+            <button class="def btn btn-dark" onclick="getnuMber('-')">-</button>
+        </div>
+        <div>
+            <button class="def btn btn-dark" onclick="getnuMber('1')">1</button>
+            <button class="def btn btn-dark" onclick="getnuMber('2')">2</button>
+            <button class="def btn btn-dark" onclick="getnuMber('3')">3</button>
+            <button class="def btn btn-dark" onclick="getnuMber('+')">+</button>
+        </div>
+        <div>
+            <button  class=" btn btn-dark" onclick="getnuMber('0')">0</button>
+            <button  class="xyz2 btn btn-dark" onclick="getnuMber('.')">.</button>
+            <button  class="xyz3 btn btn-dark" onclick="getResult()" >=</button>
+
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
